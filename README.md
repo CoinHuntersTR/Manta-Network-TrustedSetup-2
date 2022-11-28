@@ -69,7 +69,14 @@ cd manta-rs
  ```
 cargo run --release --all-features --bin groth16_phase2_client contribute
  ``` 
-  
+ 
+ ## Ekrandan çıkmak için ctrl + A + D ile çıkabilirsiniz
+ 
+Tekrar girmek için
+ ```
+screen -r
+ ``` 
+
  ## Yukarıdaki kodu girdikten sonra aşağıdaki gibi bir ekran sizi karşılayacak. Daha önce [Manta-Network-Trusted-Setup](https://github.com/pusulafinanslabs/Manta-Network-Trusted-Setup) kurulumunu yaptığınızda size verilen anahtar kelimeleri bu bölümde giriyoruz.
   
   
