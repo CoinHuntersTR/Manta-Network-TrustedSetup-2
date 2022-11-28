@@ -92,6 +92,6 @@ Sunucu katkınızı doğruladıktan sonra bir onay mesajı alacaksınız
 Katkı sağladığımız mesajı tweetleyerek (veya diğer genel forumlara göndererek) katkınızı tamamlayın. Bu adım kesinlikle gerekli olmasa da, katkınızın herkese açık bir kaydını oluşturarak törenin güvenliğini artırır.
   
   <h2 align="center">Airdrop
-    
-    Son olarak aşağıdaki linkten basit görevleri tamamlayarak 100$ değerinde KMA coin kazanacak 10 şanslı kişiden biri olabilirsiniz. Denemeyi unutmayın!!
+ 
+Son olarak aşağıdaki linkten basit görevleri tamamlayarak 100$ değerinde KMA coin kazanacak 10 şanslı kişiden biri olabilirsiniz. Denemeyi unutmayın
   ##  [Buradan](https://gleam.io/hCQmJ/manta-network-trusted-setup-campaign) airdrop kampanyasına ulaşabilirsiniz.
