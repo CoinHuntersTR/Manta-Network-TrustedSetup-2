@@ -70,67 +70,24 @@ cd manta-rs
 cargo run --release --all-features --bin groth16_phase2_client contribute
  ``` 
   
- ## Yukarıdaki kodu girdikten sonra aşağıdaki gibi bir ekran sizi karşılayacak. Buraya twitter adresinizi başında "@" işareti olmadan giriyoruz. Sonrasında mail adresimizi girip enter basıyoruz.
+ ## Yukarıdaki kodu girdikten sonra aşağıdaki gibi bir ekran sizi karşılayacak. Daha önce [Manta-Network-Trusted-Setup](https://github.com/pusulafinanslabs/Manta-Network-Trusted-Setup) kurulumunu yaptığınızda size verilen anahtar kelimeleri bu bölümde giriyoruz.
   
-  ![image](https://docs.manta.network/assets/images/ts_guide_register-a29ac5c407de7d05e590fefa7c93ae5e.png)
   
-### Bu şekilde bir görünüm elde ettiyseniz. Başarılı şekilde kayıt işlemini tamamlamışsınız demektir. 
+  ![image](https://docs.manta.network/assets/images/ts_guide_secret_prompt-a51b0113ad8b979fb1cf9f23d46cd42e.png)
+  
+### Tek yapmanız gereken anahtar kelimeleri girdikten sonra, gerisi otomatik olarak çalışacaktır. Muhtemelen şuna benzer bir katkı kuyruğuna yerleştirileceksiniz:
+  
+   ![image](https://docs.manta.network/assets/images/ts_guide_queue-6b351fe8be3332c1b7cb382f5547ce8d.png)
+  
+Bu noktada yapmanız gereken hiçbir şey yok; sadece bu süreç devam ederken bekleyin ve sıranız geldiğinde otomatik olarak katkıda bulunacaksınız. Bu görevi kapatırsanız sıradaki yerinizi kaybedeceğinizi unutmayın! Yine de katkıda bulunmak için görevi daha sonra yeniden başlatabilirsiniz, ancak sıranın sonuna yerleştirileceksiniz.
 
-#NOT: Yukarıdaki adımlar ile çalıştıramazsanız bu kısmı kullanabilirsiniz. 
-
- # 2. Manuel Kurulum
+Sıranın önüne ulaştığınızda, otomatik olarak katkınıza başlayacaktır. Katkıda bulunma işlemi birkaç dakika sürebilir. Yine bu noktada yapmanız gereken bir şey yok; sadece bekleyin. Katkınız bittiğinde, doğrulama için sunucumuza gönderilecektir. Aşağıdaki gibi ekranlar göreceksiniz;
   
+   ![image](https://docs.manta.network/assets/images/ts_guide_awaiting_confirmation-e6e621889850a8ee8bc5fd3e896859b7.png)
   
-  ## Root yetkisi alalım.
-  ```
-  sudo su
-  cd
-  ```
+Sunucu katkınızı doğruladıktan sonra bir onay mesajı alacaksınız:
   
- ## Sunucumuzu güncelleyelim
+    ![image](https://docs.manta.network/assets/images/ts_guide_success-1f47034af6b0b5e191cb9b2ec1c03a6e.png)
   
-  ```
- sudo apt update && sudo apt upgrade -y
-  ```
+Katkı sağladığımız mesajı tweetleyerek (veya diğer genel forumlara göndererek) katkınızı tamamlayın. Bu adım kesinlikle gerekli olmasa da, katkınızın herkese açık bir kaydını oluşturarak törenin güvenliğini artırır.
   
- ## Ardından bu komu ile çalıştırıyoruz.
-  
- ```
-sudo apt install pkg-config build-essential libssl-dev curl jq
- ```
- ```
-curl https://sh.rustup.rs -sSf | sh -s -- -y
- ```
- ```
-source $HOME/.cargo/env
- ```
- ```
-git clone https://github.com/Manta-Network/manta-rs.git
- ```
-
- ```
-cd manta-rs
- ``` 
- ```
-cargo run --release --package manta-trusted-setup --all-features --bin groth16_phase2_client register
- ``` 
-  
- ## İşlemler bu kadar kurulumu tamamladık. Şimdi kayıt işlemlerine devam edeceğiz.
-   ```
-manta-trusted-setup register
- ```
- ## Yukarıdaki kodu girdikten sonra aşağıdaki gibi bir ekran sizi karşılayacak. Buraya twitter adresinizi başında "@" işareti olmadan giriyoruz. Sonrasında mail adresimizi girip enter basıyoruz.
-  
-  ![image](https://docs.manta.network/assets/images/ts_guide_register-a29ac5c407de7d05e590fefa7c93ae5e.png)
-  
-### Bu şekilde bir görünüm elde ettiyseniz. Başarılı şekilde kayıt işlemini tamamlamışsınız demektir. 
-
-# KAYIT FORMU;
-  [Buradan](https://mantanetwork.typeform.com/TrustedSetup) formuna ulaşabilirsiniz. Sizden istenilen bilgileri oradan doldurup, kayı işlemini tamamlayabilirsiniz.
-  
-  Formda sizden KMA adresinizi vermenizi isteyecek, bunun için polkadotjs cüzdana sahip olmanız gerekiyor. Kurulumunu bilmiyorsanız. [Buradan](https://www.pusulafinans.com/polkadot-cuzdan-nasil-olusturulur/) makalemize göz atabilirsiniz.
-  Kurulumu yaptıktan sonra; Aşağıdaki görselleri takip ederek, KMA adresinize ulaşabilirsiniz.
-  ![image](https://user-images.githubusercontent.com/111747226/195038643-45d453c9-20ff-49f6-b7a5-0d0b7f69577d.png)   ![image](https://user-images.githubusercontent.com/111747226/195038903-d12d58b5-16d6-4516-ac11-07457b8bc42c.png)
-
-  
-## Kayıt işlemleri sonrasında "contribute" aktif hale geldiğinde güncellemelerini yayınlarız.
