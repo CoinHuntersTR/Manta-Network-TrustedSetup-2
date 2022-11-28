@@ -85,9 +85,9 @@ Sıranın önüne ulaştığınızda, otomatik olarak katkınıza başlayacaktı
   
    ![image](https://docs.manta.network/assets/images/ts_guide_awaiting_confirmation-e6e621889850a8ee8bc5fd3e896859b7.png)
   
-Sunucu katkınızı doğruladıktan sonra bir onay mesajı alacaksınız:
+Sunucu katkınızı doğruladıktan sonra bir onay mesajı alacaksınız
   
-    ![image](https://docs.manta.network/assets/images/ts_guide_success-1f47034af6b0b5e191cb9b2ec1c03a6e.png)
+ ![image](https://docs.manta.network/assets/images/ts_guide_success-1f47034af6b0b5e191cb9b2ec1c03a6e.png)
   
 Katkı sağladığımız mesajı tweetleyerek (veya diğer genel forumlara göndererek) katkınızı tamamlayın. Bu adım kesinlikle gerekli olmasa da, katkınızın herkese açık bir kaydını oluşturarak törenin güvenliğini artırır.
   
