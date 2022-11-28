@@ -16,7 +16,7 @@
 
  
   
-  # 1. adımda Manta kurulumu otomatik script ile kurulumunu paylaşalım sorun yaşarsanız manuel kurulum kısmına geçebilirsiniz.
+  # Buradaki adımlar ile Manta pay katkılarını sunarak testneti tamamlayabiliriz
   
   
   ## Root yetkisi alalım.
